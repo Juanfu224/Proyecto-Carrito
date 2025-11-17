@@ -1,12 +1,10 @@
-# 🛒 Carrito de Compras - Proyecto Mejorado
-
-## 📝 Descripción
+## Descripción
 
 Aplicación web de carrito de compras para cursos online del **IES Rafael Alberti**. Este proyecto ha sido mejorado con múltiples funcionalidades avanzadas de JavaScript, incluyendo búsqueda en tiempo real, filtros por categoría, modo oscuro/claro, notificaciones toast, cálculo de totales y persistencia completa de datos.
 
 ---
 
-## 🚀 Instalación y Uso
+## Instalación y Uso
 
 ### Opción 1: Abrir Directamente
 ```bash
@@ -32,7 +30,7 @@ npx serve
 
 ---
 
-## ✨ Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 ### Funcionalidades Originales Mejoradas
 - ✅ **Añadir cursos al carrito** - Ahora con notificaciones y validaciones
@@ -40,9 +38,9 @@ npx serve
 - ✅ **Vaciar carrito completo** - Con modal de confirmación
 - ✅ **Persistencia con LocalStorage** - Mejorada para incluir tema y carrito
 
-### 🆕 Nuevas Funcionalidades
+### Nuevas Funcionalidades
 
-#### 1. 🔍 Búsqueda en Tiempo Real
+#### 1. Búsqueda en Tiempo Real
 Permite filtrar cursos mientras el usuario escribe en el buscador.
 
 **Características:**
@@ -127,7 +125,7 @@ function filtrarPorCategoria(e) {
 
 ---
 
-#### 3. 💰 Cálculo Automático de Totales
+#### 3. Cálculo Automático de Totales
 Calcula y muestra el precio total del carrito en tiempo real.
 
 **Características:**
@@ -160,7 +158,7 @@ function calcularTotal() {
 
 ---
 
-#### 4. 🔔 Badge Animado del Carrito
+#### 4. Badge Animado del Carrito
 Muestra la cantidad total de artículos en el carrito con una animación llamativa.
 
 **Características:**
@@ -201,7 +199,7 @@ function actualizarBadge() {
 
 ---
 
-#### 5. 🌓 Modo Oscuro/Claro
+#### 5. Modo Oscuro/Claro
 Permite al usuario cambiar entre tema claro y oscuro con persistencia.
 
 **Características:**
@@ -265,7 +263,7 @@ body {
 
 ---
 
-#### 6. 🔔 Sistema de Notificaciones Toast
+#### 6. Sistema de Notificaciones Toast
 Notificaciones elegantes y no intrusivas para feedback del usuario.
 
 **Características:**
@@ -323,7 +321,7 @@ function mostrarNotificacion(mensaje, tipo = 'info', icono = 'ℹ️') {
 
 ---
 
-#### 7. ⚠️ Modal de Confirmación
+#### 7. Modal de Confirmación
 Modal elegante para confirmar acciones importantes como vaciar el carrito.
 
 **Características:**
@@ -361,7 +359,7 @@ function mostrarModal(titulo, mensaje, onConfirm) {
 
 ---
 
-#### 8. 🛡️ Validaciones
+#### 8. Validaciones
 Validaciones robustas para mejorar la experiencia del usuario.
 
 **Validaciones implementadas:**
@@ -393,7 +391,7 @@ if (existe) {
 
 ---
 
-#### 9. ♿ Mejoras de Accesibilidad
+#### 9. Mejoras de Accesibilidad
 Mejoras para hacer la aplicación accesible a todos los usuarios.
 
 **Características:**
@@ -433,7 +431,7 @@ function anunciarCambio(mensaje) {
 
 ---
 
-#### 10. 💾 Persistencia Completa
+#### 10. Persistencia Completa
 Todos los datos importantes se guardan en LocalStorage.
 
 **Datos persistentes:**
@@ -517,7 +515,7 @@ Proyecto-Carrito/
 
 ---
 
-## ✅ Buenas Prácticas Implementadas
+## Buenas Prácticas Implementadas
 
 ### Código Limpio
 - ✅ Nombres descriptivos de variables y funciones
@@ -547,7 +545,7 @@ Proyecto-Carrito/
 
 ---
 
-## 🧪 Cómo Probar las Funcionalidades
+## Cómo Probar las Funcionalidades
 
 ### 1. Búsqueda en Tiempo Real
 ```
@@ -626,7 +624,7 @@ console.log('Total artículos:', total);
 
 ---
 
-## 📊 Mejoras Cuantificadas
+## Mejoras Cuantificadas
 
 | Aspecto | Antes | Después | Mejora |
 |---------|-------|---------|--------|
@@ -640,7 +638,7 @@ console.log('Total artículos:', total);
 
 ---
 
-## 🎓 Conceptos de JavaScript Aplicados
+## Conceptos de JavaScript Aplicados
 
 ### 1. Eventos del DOM
 ```javascript
@@ -690,7 +688,7 @@ const { imagen, titulo, precio, cantidad, id } = curso
 
 ---
 
-## 🔧 Instalación de Dependencias
+## Instalación de Dependencias
 
 Este proyecto **NO requiere instalación de dependencias** ya que utiliza:
 - Vanilla JavaScript (sin frameworks)
@@ -710,7 +708,7 @@ serve
 
 ---
 
-## 🐛 Verificación de Errores
+## Verificación de Errores
 
 El código ha sido verificado y **no contiene errores**:
 
@@ -723,7 +721,7 @@ El código ha sido verificado y **no contiene errores**:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Proyecto desarrollado para IES Rafael Alberti**  
 Ejercicio de mejora de código JavaScript aplicando:
@@ -738,13 +736,13 @@ Ejercicio de mejora de código JavaScript aplicando:
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este es un proyecto educativo desarrollado como parte del aprendizaje de JavaScript moderno y desarrollo web front-end.
 
 ---
 
-## 🤝 Contribuciones
+## Contribuciones
 
 Aunque este es un proyecto educativo, si encuentras algún error o tienes sugerencias de mejora:
 
@@ -754,18 +752,6 @@ Aunque este es un proyecto educativo, si encuentras algún error o tienes sugere
 4. Haz commit de tus cambios (`git commit -m 'Añadir mejora'`)
 5. Haz push a la rama (`git push origin mejora/nombre`)
 6. Abre un Pull Request
-
----
-
-## 📚 Recursos de Aprendizaje
-
-Si quieres aprender más sobre las técnicas utilizadas en este proyecto:
-
-- [MDN Web Docs - JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
-- [MDN - LocalStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-- [MDN - Array Methods](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [CSS Tricks - CSS Variables](https://css-tricks.com/a-complete-guide-to-custom-properties/)
-- [ARIA - Accesibilidad](https://developer.mozilla.org/es/docs/Web/Accessibility/ARIA)
 
 ---
 
