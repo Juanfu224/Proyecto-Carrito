@@ -9,7 +9,7 @@ Aplicación web de carrito de compras para cursos online del **IES Rafael Albert
 ### Opción 1: Abrir Directamente
 ```bash
 # Clona el repositorio
-git clone <url-del-repositorio>
+git clone https://github.com/Juanfu224/Proyecto-Carrito
 
 # Navega a la carpeta
 cd Proyecto-Carrito
