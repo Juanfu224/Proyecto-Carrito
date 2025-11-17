@@ -67,12 +67,6 @@ function cargarEventListeners() {
     filtrosBtns.forEach(btn => {
         btn.addEventListener('click', filtrarPorCategoria);
     });
-    
-    // Cargar carrito al iniciar
-    document.addEventListener('DOMContentLoaded', () => {
-        carritoHTML();
-        actualizarBadge();
-    });
 }
 
 // ========================================
@@ -194,7 +188,7 @@ function carritoHTML() {
     // Renderizar cada curso
     articulosCarrito.forEach(curso => {
         const { imagen, titulo, precio, cantidad, id } = curso;
-        const precioNumerico = parseFloat(precio.replace('€', ''));
+        const precioNumerico = parseFloat(precio.replace('€', '').trim());
         const subtotal = (precioNumerico * cantidad).toFixed(2);
         
         const row = document.createElement('tr');
@@ -245,7 +239,7 @@ function limpiarHTML() {
 // Calcular total del carrito
 function calcularTotal() {
     const total = articulosCarrito.reduce((acc, curso) => {
-        const precio = parseFloat(curso.precio.replace('€', ''));
+        const precio = parseFloat(curso.precio.replace('€', '').trim());
         return acc + (precio * curso.cantidad);
     }, 0);
     
